@@ -8,8 +8,8 @@
 #  id         :integer         not null, primary key
 #  title      :string(255)
 #	 short_title :string(255)
-#  content    :string(1255)
-#  image_path :string 
+#  content    :text
+#  image_path :string(255) 
 #  price			:string(255)
 #  created_at :datetime
 #  updated_at :datetime

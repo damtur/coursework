@@ -13,6 +13,7 @@ class Document < ActiveRecord::Base
 	attr_accessible :title, :path
   validates :title, :presence => true,
 	    :length   => { :maximum => 255 }
-  validates :path, :presence => true
+  validates :path, :presence => true,
+	    :length   => { :maximum => 255 }
 
 end
