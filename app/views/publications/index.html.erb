@@ -1,0 +1,35 @@
+<section class="round">
+        <table width=700>		
+			<tr>
+	<td>
+<center>				<h2>Publications</h2>
+
+ Box Hill Books of | 
+	<% @publications.each do |publication| %>
+		<a href="#<%= publication.short_title %>"> <%= publication.short_title %> </a> | 
+  <% end %>
+<br>
+</center><br>
+
+<left><a name="order"></a><b>How To Order:</b>  All Friends of Box Hill publications are available in the Information Centre on the top of the hill, but if you'd like to order by post, please print off and fill in <a href="/assets/fobh_order_form.pdf">this order form</a> and send it with your cheque made payable to "Friends of Box Hill Association" to: The Friends of Box Hill Association, c/o the National Trust, Warren Farm Barn, Headley Lane, Mickleham, Dorking, RH5 6DG.  If you are ordering from outside the UK or would like to work out a way of paying electronically, please send us an <A HREF="mailto:Friends of Box Hill <info@friendsofboxhill.org.uk>">email</A> and we'll see what we can come up with.
+<br>
+<br>
+
+<center><b>***Note: there is a discount on postage when ordering more than one item.***</b>
+</center><br>
+<br>
+
+
+</left>
+
+
+<%= render @publications %>
+
+
+<br>
+<br>
+							
+<b>		<a href="#top">Top</a>
+</b>		
+
+</section>

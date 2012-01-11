@@ -1,0 +1,15 @@
+
+<div class="info">
+<h3><%= information.title %></h3>
+	<table width="90%">
+		<tr>
+		<% if information.picture? 	%>
+			<td><a href="/assets/user/<%= information.picture %>"><%= image_tag("/assets/user/" + information.picture, :alt => information.picture, :width=>"125") %></a>
+			</td><td>
+		<% else %>
+			<td colspan="2">
+		<% end %>
+      <%= information.content %>
+		</td></tr>
+</table>
+</div>

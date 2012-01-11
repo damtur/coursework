@@ -1,0 +1,20 @@
+<h1>Uplad file</h1>
+
+
+<%= form_for(@document) do |f| %>
+
+	<%= render 'shared/error_messages', :object => f.object %>
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= f.label :path %><br />
+    <%= f.file_field :path %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Upload" %>
+  </div>
+<% end %>

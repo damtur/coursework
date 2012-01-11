@@ -5,3 +5,82 @@
  *= require_self
  *= require_tree . 
 */
+
+
+BODY {
+	font:84%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+	background-color: #C7D6AE!important;
+}
+
+P {font:90%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+}
+
+OL {font:78%/1.8em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+}
+
+UL {font:78%/1.8em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+}
+
+TD {font:84%/1.4em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+}
+
+DIV {ffont:78%/1.8em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+}
+
+TEXTAREA {font:78%/1.8em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+
+}
+A:link    {color : blue}
+A:visited {color : purple}
+A:active  {color : red}
+
+
+.littlewriting {font-size: 9pt}
+.biggerwriting {font-size: 13pt; font-weight: bold;}
+
+H1 {font:300%/1em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+   font-weight   : bold;
+   align :	center;
+}
+
+H2 {font:130%/1.5em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+   font-weight   : bold;
+   align :	center;
+ }
+
+H3 { font:130%/1.2em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+   font-weight   : bold;
+   align :	center;
+}
+
+H4 {font:84%/1.8em "Trebuchet MS",Trebuchet,Arial,Verdana,Sans-serif;
+   font-weight   : bold;
+   align :	center;
+}
+
+.c{
+	align : center;
+}
+
+.l-column{
+	width: 250px;
+}
+
+#container{
+	width: 860px;
+	margin: 10px auto;
+	background-color: #F4F4F4;
+	padding: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.info{
+	background-color: #E6E6E6;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	padding: 7px;
+	margin: 10px;
+}
